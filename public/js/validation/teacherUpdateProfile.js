@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$("#updateProfileForm").validate({
+		rules:{
+			full_name:{
+				required:true
+			},
+			email:{
+				required:true,
+				email:true
+			}
+		}
+	});
+});
